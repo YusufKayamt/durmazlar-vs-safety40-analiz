@@ -1,6 +1,6 @@
 # SWOT Analizi · Durmazlar VS CNC Hidrolik Giyotin Makas
 
-> **Bakış açısı:** Makinenin Safety 4.0 olgunluğu, yani fonksiyonel emniyet + siber güvenlik birlikte. Değerlendirme, Lab 1–6 bulgularına ve yalnızca herkese açık bilgilere dayanır. **(V)** işareti, açık kaynakta doğrulanamayan varsayımlara dayanan maddeleri gösterir.
+> **Bakış açısı:** Makinenin Safety 4.0 olgunluğu, yani fonksiyonel emniyet + siber güvenlik birlikte. Değerlendirme, Lab 1–7 bulgularına ve yalnızca herkese açık bilgilere dayanır. **(V)** işareti, açık kaynakta doğrulanamayan varsayımlara dayanan maddeleri gösterir.
 
 ## Özet matris
 
