@@ -1,10 +1,10 @@
 # 🛡️ Durmazlar VS · Safety 4.0 Analizi
 
 **Durmazlar (Durma) VS Serisi CNC Hidrolik Giyotin Makas** için fonksiyonel emniyet ve endüstriyel siber güvenlik analizi.
-*Safety 4.0 Bootcamp (Inspecco × Kriptarium) laboratuvar föyleri · Lab 1–4*
+*Safety 4.0 Bootcamp (Inspecco × Kriptarium) laboratuvar föyleri · Lab 1–5*
 
 ![Makine](https://img.shields.io/badge/Makine-Durmazlar%20VS%20Giyotin%20Makas-1f8f84)
-![Kapsam](https://img.shields.io/badge/Kapsam-Lab%201--4-1e2d4a)
+![Kapsam](https://img.shields.io/badge/Kapsam-Lab%201--5-1e2d4a)
 ![Standart](https://img.shields.io/badge/IEC-62443-e55b33)
 ![Mevzuat](https://img.shields.io/badge/AB-2023%2F1230%20%C2%B7%20CRA-b8291f)
 
@@ -44,9 +44,10 @@ durmazlar-vs-safety40-analiz/
 │   ├── lab-1-safety-architecture.md   ← emniyet fonksiyonu haritası
 │   ├── lab-2-iec62443-zone-conduit.md ← bölge / geçiş diyagramı
 │   ├── lab-3-threat-risk-matrix.md    ← risk kaydı (L × S × E)
-│   └── lab-4-secure-remote-access.md  ← güvenli uzak erişim mimarisi
+│   ├── lab-4-secure-remote-access.md  ← güvenli uzak erişim mimarisi
+│   └── lab-5-sbom-cve-patch.md        ← zafiyet karar akışı (SBOM / CVE / yama)
 └── pdf/
-    └── Durmazlar_VS_Lab1-4_Doldurulmus.pdf  ← doldurulmuş föyler (baskıya hazır)
+    └── Durmazlar_VS_Lab1-5_Doldurulmus.pdf  ← doldurulmuş föyler (baskıya hazır)
 ```
 
 ## 🧪 Laboratuvarlar
@@ -57,8 +58,9 @@ durmazlar-vs-safety40-analiz/
 | [2](laboratuvarlar/lab-2-iec62443-zone-conduit.md) | IEC 62443 Mini Workshop | Zone / Conduit Diagram | 4 bölge; uzak servis DMZ'ye taşınmalı, emniyet bölgesine yazma yolu olmamalı |
 | [3](laboratuvarlar/lab-3-threat-risk-matrix.md) | Threat & Risk + Risk Matrix | Risk Register | En kritik senaryo: açık uzak servis + paylaşılan şifre → parmak kesilmesi (skor 18) |
 | [4](laboratuvarlar/lab-4-secure-remote-access.md) | Secure Remote Access | Secure Architecture | Beş ilke (jump server, VPN, MFA, kayıt, varsayılan kapalı) + emniyet bağımsızlığı gereksinimi |
+| [5](laboratuvarlar/lab-5-sbom-cve-patch.md) | SBOM / CVE / Patch | Vulnerability Decision | CVSS 9.8 tek başına durdurma kararı değil; önce telafi önlemi, yama sonrası durma süresi yeniden ölçülür |
 
-📄 Baskıya hazır sürüm: [`pdf/Durmazlar_VS_Lab1-4_Doldurulmus.pdf`](pdf/Durmazlar_VS_Lab1-4_Doldurulmus.pdf)
+📄 Baskıya hazır sürüm: [`pdf/Durmazlar_VS_Lab1-5_Doldurulmus.pdf`](pdf/Durmazlar_VS_Lab1-5_Doldurulmus.pdf)
 
 ## 📊 SWOT analizi
 
