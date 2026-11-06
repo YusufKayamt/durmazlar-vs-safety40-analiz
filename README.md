@@ -1,10 +1,10 @@
 # 🛡️ Durmazlar VS · Safety 4.0 Analizi
 
 **Durmazlar (Durma) VS Serisi CNC Hidrolik Giyotin Makas** için fonksiyonel emniyet ve endüstriyel siber güvenlik analizi.
-*Safety 4.0 Bootcamp (Inspecco × Kriptarium) laboratuvar föyleri · Lab 1–5*
+*Safety 4.0 Bootcamp (Inspecco × Kriptarium) laboratuvar föyleri · Lab 1–6*
 
 ![Makine](https://img.shields.io/badge/Makine-Durmazlar%20VS%20Giyotin%20Makas-1f8f84)
-![Kapsam](https://img.shields.io/badge/Kapsam-Lab%201--5-1e2d4a)
+![Kapsam](https://img.shields.io/badge/Kapsam-Lab%201--6-1e2d4a)
 ![Standart](https://img.shields.io/badge/IEC-62443-e55b33)
 ![Mevzuat](https://img.shields.io/badge/AB-2023%2F1230%20%C2%B7%20CRA-b8291f)
 
@@ -45,9 +45,10 @@ durmazlar-vs-safety40-analiz/
 │   ├── lab-2-iec62443-zone-conduit.md ← bölge / geçiş diyagramı
 │   ├── lab-3-threat-risk-matrix.md    ← risk kaydı (L × S × E)
 │   ├── lab-4-secure-remote-access.md  ← güvenli uzak erişim mimarisi
-│   └── lab-5-sbom-cve-patch.md        ← zafiyet karar akışı (SBOM / CVE / yama)
+│   ├── lab-5-sbom-cve-patch.md        ← zafiyet karar akışı (SBOM / CVE / yama)
+│   └── lab-6-cra-incident-simulation.md ← olay müdahale zaman çizgisi (CRA 24s/72s/14g)
 └── pdf/
-    └── Durmazlar_VS_Lab1-5_Doldurulmus.pdf  ← doldurulmuş föyler (baskıya hazır)
+    └── Durmazlar_VS_Lab1-6_Doldurulmus.pdf  ← doldurulmuş föyler (baskıya hazır)
 ```
 
 ## 🧪 Laboratuvarlar
@@ -59,8 +60,9 @@ durmazlar-vs-safety40-analiz/
 | [3](laboratuvarlar/lab-3-threat-risk-matrix.md) | Threat & Risk + Risk Matrix | Risk Register | En kritik senaryo: açık uzak servis + paylaşılan şifre → parmak kesilmesi (skor 18) |
 | [4](laboratuvarlar/lab-4-secure-remote-access.md) | Secure Remote Access | Secure Architecture | Beş ilke (jump server, VPN, MFA, kayıt, varsayılan kapalı) + emniyet bağımsızlığı gereksinimi |
 | [5](laboratuvarlar/lab-5-sbom-cve-patch.md) | SBOM / CVE / Patch | Vulnerability Decision | CVSS 9.8 tek başına durdurma kararı değil; önce telafi önlemi, yama sonrası durma süresi yeniden ölçülür |
+| [6](laboratuvarlar/lab-6-cra-incident-simulation.md) | CRA Incident Simulation | Incident Workflow | Önce emniyet, hemen sonra kanıt; 24s erken uyarı, 72s bildirim, 14 gün son rapor |
 
-📄 Baskıya hazır sürüm: [`pdf/Durmazlar_VS_Lab1-5_Doldurulmus.pdf`](pdf/Durmazlar_VS_Lab1-5_Doldurulmus.pdf)
+📄 Baskıya hazır sürüm: [`pdf/Durmazlar_VS_Lab1-6_Doldurulmus.pdf`](pdf/Durmazlar_VS_Lab1-6_Doldurulmus.pdf)
 
 ## 📊 SWOT analizi
 
